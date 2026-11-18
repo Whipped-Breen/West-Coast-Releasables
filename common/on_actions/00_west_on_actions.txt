@@ -1,0 +1,78 @@
+on_actions = {
+	#ROOT is new controller #FROM is old controller #FROM.FROM is state ID
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					FROM.FROM = { state = 378 }
+				}
+				if = {
+					limit = {
+						ROOT = { original_tag = CAL }
+					}
+					add_victory_points = { province = 9713 value = 30 }
+				}
+			}
+			if = {
+				limit = {
+					FROM.FROM = { state = 463 }
+				}
+				if = {
+					limit = {
+						ROOT = { original_tag = ALK }
+					}
+					add_victory_points = { province = 13203 value = 3 }
+				}
+			}
+		}
+	}
+	#ROOT = nation being puppeted, FROM = overlord
+	on_puppet = {
+		effect = {
+			if = {
+				limit = { 
+					AND = { 
+						TAG = ALK
+						is_subject_of = SOV
+						SOV = { NOT = { has_government = communism } }
+					}
+				}
+				if = {
+					limit = { SOV = { has_government = fascism } }
+					retire_ideology_leader = fascism
+				}
+				else_if = {
+					limit = { SOV = { has_government = neutrality } }
+					retire_ideology_leader = neutrality
+				}
+				set_cosmetic_tag = ALK_SOV
+			}
+		}
+	}
+
+	#used when puppeting through the occupied territories menu during peace time (or when releasing from non-core but owned territory, f.e. Britain releasing Egypt)
+	#ROOT = nation being released, FROM = overlord
+	on_release_as_puppet = {
+		effect = {
+			if = {
+				limit = { 
+					AND = { 
+						TAG = ALK
+						is_subject_of = SOV
+						SOV = { NOT = { has_government = communism } }
+					}
+				}
+				if = {
+					limit = { SOV = { has_government = fascism } }
+					retire_ideology_leader = fascism
+				}
+				else_if = {
+					limit = { SOV = { has_government = neutrality } }
+					retire_ideology_leader = neutrality
+				}
+				set_cosmetic_tag = ALK_SOV
+			}
+		}
+	}
+}
+

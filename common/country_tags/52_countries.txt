@@ -1,0 +1,4 @@
+CAL	= "countries/California.txt"
+CSC	= "countries/Cascadia.txt"
+ALK	= "countries/Alaska.txt"
+DES	= "countries/Deseret.txt"

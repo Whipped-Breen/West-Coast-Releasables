@@ -1,0 +1,142 @@
+political_actions = {
+	CAN_integrate_alaska = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = CAN
+		}
+		available = {
+			controls_state = 463
+		}
+		visible = {
+			
+		}
+	#	cost = 25
+		days_remove = 1
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 200
+		}
+		modifier = {
+			political_power_gain = -0.1
+		}
+		remove_effect = {
+			every_state = {
+				limit = {
+					is_core_of = ALK
+					NOT = { is_core_of = CAN }
+				}
+				add_core_of = CAN
+			}
+		}
+	}
+}
+form_pacific_category = {
+	
+	form_pacific = {
+
+		icon = generic_form_nation
+
+		available = {
+			all_state = { 
+				OR = {
+					NOT = {
+						is_core_of = CAL
+						is_core_of = CSC
+						is_core_of = DES
+						is_core_of = ALK
+					}
+					is_controlled_by = ROOT
+					state = 650
+				}
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = CAL
+				original_tag = CSC
+				original_tag = DES
+				original_tag = ALK
+			}
+			NOT = { has_global_flag = form_pacific_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = PCF_UNIFIED
+			set_global_flag = form_pacific_flag
+			if = {
+				limit = { original_tag = ALK }
+				set_capital = { state = 473 }
+			}
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = CAL
+						is_core_of = CSC
+						is_core_of = DES
+						is_core_of = ALK
+						state = 629
+						state = 377
+						state = 471
+					}
+				}
+				add_core_of = ROOT
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}
+form_west_coast_category = {
+	
+	form_west_coast = {
+
+		icon = generic_form_nation
+
+		available = {
+			all_state = { 
+				OR = {
+					NOT = {
+						is_core_of = CAL
+						is_core_of = CSC
+					}
+					is_controlled_by = ROOT
+					state = 739
+					state = 387
+				}
+			}
+		}
+
+		visible = {
+			original_tag = CAL
+			NOT = { has_global_flag = form_west_coast_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = WEC_UNIFIED
+		#	if = {
+		#		limit = { original_tag = CAL }
+		#		set_cosmetic_tag = CSC
+		#	}
+			set_global_flag = form_west_coast_flag
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = CAL
+						is_core_of = CSC
+					}
+					NOT = { state = 387 }
+				}
+				add_core_of = ROOT
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}
