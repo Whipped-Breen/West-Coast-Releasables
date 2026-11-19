@@ -1,0 +1,481 @@
+# Cloned from USA units for West Coast releasables
+
+entity = {
+	clone = "USA_anti_tank_entity"
+	name = "ALK_anti_tank_entity"
+}
+
+entity = {
+	clone = "USA_anti_tank_entity"
+	name = "CAL_anti_tank_entity"
+}
+
+entity = {
+	clone = "USA_anti_tank_entity"
+	name = "DES_anti_tank_entity"
+}
+
+entity = {
+	clone = "USA_army_weapon_pistol_left_entity"
+	name = "ALK_army_weapon_pistol_left_entity"
+}
+
+entity = {
+	clone = "USA_army_weapon_pistol_left_entity"
+	name = "CAL_army_weapon_pistol_left_entity"
+}
+
+entity = {
+	clone = "USA_army_weapon_pistol_left_entity"
+	name = "DES_army_weapon_pistol_left_entity"
+}
+
+entity = {
+	clone = "USA_army_weapon_pistol_long_idle_entity"
+	name = "ALK_army_weapon_pistol_long_idle_entity"
+}
+
+entity = {
+	clone = "USA_army_weapon_pistol_long_idle_entity"
+	name = "CAL_army_weapon_pistol_long_idle_entity"
+}
+
+entity = {
+	clone = "USA_army_weapon_pistol_long_idle_entity"
+	name = "DES_army_weapon_pistol_long_idle_entity"
+}
+
+entity = {
+	clone = "USA_army_weapon_pistol_right_entity"
+	name = "ALK_army_weapon_pistol_right_entity"
+}
+
+entity = {
+	clone = "USA_army_weapon_pistol_right_entity"
+	name = "CAL_army_weapon_pistol_right_entity"
+}
+
+entity = {
+	clone = "USA_army_weapon_pistol_right_entity"
+	name = "DES_army_weapon_pistol_right_entity"
+}
+
+entity = {
+	clone = "USA_artillery_entity"
+	name = "ALK_artillery_entity"
+}
+
+entity = {
+	clone = "USA_artillery_entity"
+	name = "CAL_artillery_entity"
+}
+
+entity = {
+	clone = "USA_artillery_entity"
+	name = "DES_artillery_entity"
+}
+
+entity = {
+	clone = "USA_battleship_entity"
+	name = "ALK_battleship_entity"
+}
+
+entity = {
+	clone = "USA_battleship_entity"
+	name = "CAL_battleship_entity"
+}
+
+entity = {
+	clone = "USA_battleship_entity"
+	name = "DES_battleship_entity"
+}
+
+entity = {
+	clone = "USA_cavalry_2_entity"
+	name = "ALK_cavalry_2_entity"
+}
+
+entity = {
+	clone = "USA_cavalry_2_entity"
+	name = "CAL_cavalry_2_entity"
+}
+
+entity = {
+	clone = "USA_cavalry_2_entity"
+	name = "DES_cavalry_2_entity"
+}
+
+entity = {
+	clone = "USA_cavalry_entity"
+	name = "ALK_cavalry_entity"
+}
+
+entity = {
+	clone = "USA_cavalry_entity"
+	name = "CAL_cavalry_entity"
+}
+
+entity = {
+	clone = "USA_cavalry_entity"
+	name = "DES_cavalry_entity"
+}
+
+entity = {
+	clone = "USA_cavalry_mg_combined_entity"
+	name = "ALK_cavalry_mg_combined_entity"
+}
+
+entity = {
+	clone = "USA_cavalry_mg_combined_entity"
+	name = "CAL_cavalry_mg_combined_entity"
+}
+
+entity = {
+	clone = "USA_cavalry_mg_combined_entity"
+	name = "DES_cavalry_mg_combined_entity"
+}
+
+entity = {
+	clone = "USA_cavalry_rifle_combined_entity"
+	name = "ALK_cavalry_rifle_combined_entity"
+}
+
+entity = {
+	clone = "USA_cavalry_rifle_combined_entity"
+	name = "CAL_cavalry_rifle_combined_entity"
+}
+
+entity = {
+	clone = "USA_cavalry_rifle_combined_entity"
+	name = "DES_cavalry_rifle_combined_entity"
+}
+
+entity = {
+	clone = "USA_heavy_armor_entity"
+	name = "ALK_heavy_armor_entity"
+}
+
+entity = {
+	clone = "USA_heavy_armor_entity"
+	name = "CAL_heavy_armor_entity"
+}
+
+entity = {
+	clone = "USA_heavy_armor_entity"
+	name = "DES_heavy_armor_entity"
+}
+
+entity = {
+	clone = "USA_heavy_cruiser_entity"
+	name = "ALK_heavy_cruiser_entity"
+}
+
+entity = {
+	clone = "USA_heavy_cruiser_entity"
+	name = "CAL_heavy_cruiser_entity"
+}
+
+entity = {
+	clone = "USA_heavy_cruiser_entity"
+	name = "DES_heavy_cruiser_entity"
+}
+
+entity = {
+	clone = "USA_heavy_plane_entity"
+	name = "ALK_heavy_plane_entity"
+}
+
+entity = {
+	clone = "USA_heavy_plane_entity"
+	name = "CAL_heavy_plane_entity"
+}
+
+entity = {
+	clone = "USA_heavy_plane_entity"
+	name = "DES_heavy_plane_entity"
+}
+
+entity = {
+	clone = "USA_infantry_2_entity"
+	name = "ALK_infantry_2_entity"
+}
+
+entity = {
+	clone = "USA_infantry_2_entity"
+	name = "CAL_infantry_2_entity"
+}
+
+entity = {
+	clone = "USA_infantry_2_entity"
+	name = "DES_infantry_2_entity"
+}
+
+entity = {
+	clone = "USA_infantry_3_entity"
+	name = "ALK_infantry_3_entity"
+}
+
+entity = {
+	clone = "USA_infantry_3_entity"
+	name = "CAL_infantry_3_entity"
+}
+
+entity = {
+	clone = "USA_infantry_3_entity"
+	name = "DES_infantry_3_entity"
+}
+
+entity = {
+	clone = "USA_infantry_entity"
+	name = "ALK_infantry_entity"
+}
+
+entity = {
+	clone = "USA_infantry_entity"
+	name = "CAL_infantry_entity"
+}
+
+entity = {
+	clone = "USA_infantry_entity"
+	name = "DES_infantry_entity"
+}
+
+entity = {
+	clone = "USA_infantry_mg_rider_entity"
+	name = "ALK_infantry_mg_rider_entity"
+}
+
+entity = {
+	clone = "USA_infantry_mg_rider_entity"
+	name = "CAL_infantry_mg_rider_entity"
+}
+
+entity = {
+	clone = "USA_infantry_mg_rider_entity"
+	name = "DES_infantry_mg_rider_entity"
+}
+
+entity = {
+	clone = "USA_infantry_rider_entity"
+	name = "ALK_infantry_rider_entity"
+}
+
+entity = {
+	clone = "USA_infantry_rider_entity"
+	name = "CAL_infantry_rider_entity"
+}
+
+entity = {
+	clone = "USA_infantry_rider_entity"
+	name = "DES_infantry_rider_entity"
+}
+
+entity = {
+	clone = "USA_infantry_weapon_mg_left_entity"
+	name = "ALK_infantry_weapon_mg_left_entity"
+}
+
+entity = {
+	clone = "USA_infantry_weapon_mg_left_entity"
+	name = "CAL_infantry_weapon_mg_left_entity"
+}
+
+entity = {
+	clone = "USA_infantry_weapon_mg_left_entity"
+	name = "DES_infantry_weapon_mg_left_entity"
+}
+
+entity = {
+	clone = "USA_infantry_weapon_mg_long_idle_entity"
+	name = "ALK_infantry_weapon_mg_long_idle_entity"
+}
+
+entity = {
+	clone = "USA_infantry_weapon_mg_long_idle_entity"
+	name = "CAL_infantry_weapon_mg_long_idle_entity"
+}
+
+entity = {
+	clone = "USA_infantry_weapon_mg_long_idle_entity"
+	name = "DES_infantry_weapon_mg_long_idle_entity"
+}
+
+entity = {
+	clone = "USA_infantry_weapon_mg_right_entity"
+	name = "ALK_infantry_weapon_mg_right_entity"
+}
+
+entity = {
+	clone = "USA_infantry_weapon_mg_right_entity"
+	name = "CAL_infantry_weapon_mg_right_entity"
+}
+
+entity = {
+	clone = "USA_infantry_weapon_mg_right_entity"
+	name = "DES_infantry_weapon_mg_right_entity"
+}
+
+entity = {
+	clone = "USA_infantry_weapon_rifle_left_entity"
+	name = "ALK_infantry_weapon_rifle_left_entity"
+}
+
+entity = {
+	clone = "USA_infantry_weapon_rifle_left_entity"
+	name = "CAL_infantry_weapon_rifle_left_entity"
+}
+
+entity = {
+	clone = "USA_infantry_weapon_rifle_left_entity"
+	name = "DES_infantry_weapon_rifle_left_entity"
+}
+
+entity = {
+	clone = "USA_infantry_weapon_rifle_long_idle_entity"
+	name = "ALK_infantry_weapon_rifle_long_idle_entity"
+}
+
+entity = {
+	clone = "USA_infantry_weapon_rifle_long_idle_entity"
+	name = "CAL_infantry_weapon_rifle_long_idle_entity"
+}
+
+entity = {
+	clone = "USA_infantry_weapon_rifle_long_idle_entity"
+	name = "DES_infantry_weapon_rifle_long_idle_entity"
+}
+
+entity = {
+	clone = "USA_infantry_weapon_rifle_right_entity"
+	name = "ALK_infantry_weapon_rifle_right_entity"
+}
+
+entity = {
+	clone = "USA_infantry_weapon_rifle_right_entity"
+	name = "CAL_infantry_weapon_rifle_right_entity"
+}
+
+entity = {
+	clone = "USA_infantry_weapon_rifle_right_entity"
+	name = "DES_infantry_weapon_rifle_right_entity"
+}
+
+entity = {
+	clone = "USA_light_armor_entity"
+	name = "ALK_light_armor_entity"
+}
+
+entity = {
+	clone = "USA_light_armor_entity"
+	name = "CAL_light_armor_entity"
+}
+
+entity = {
+	clone = "USA_light_armor_entity"
+	name = "DES_light_armor_entity"
+}
+
+entity = {
+	clone = "USA_light_plane_entity"
+	name = "ALK_light_plane_entity"
+}
+
+entity = {
+	clone = "USA_light_plane_entity"
+	name = "CAL_light_plane_entity"
+}
+
+entity = {
+	clone = "USA_light_plane_entity"
+	name = "DES_light_plane_entity"
+}
+
+entity = {
+	clone = "USA_mechanized_entity"
+	name = "ALK_mechanized_entity"
+}
+
+entity = {
+	clone = "USA_mechanized_entity"
+	name = "CAL_mechanized_entity"
+}
+
+entity = {
+	clone = "USA_mechanized_entity"
+	name = "DES_mechanized_entity"
+}
+
+entity = {
+	clone = "USA_medium_armor_entity"
+	name = "ALK_medium_armor_entity"
+}
+
+entity = {
+	clone = "USA_medium_armor_entity"
+	name = "CAL_medium_armor_entity"
+}
+
+entity = {
+	clone = "USA_medium_armor_entity"
+	name = "DES_medium_armor_entity"
+}
+
+entity = {
+	clone = "USA_medium_plane_entity"
+	name = "ALK_medium_plane_entity"
+}
+
+entity = {
+	clone = "USA_medium_plane_entity"
+	name = "CAL_medium_plane_entity"
+}
+
+entity = {
+	clone = "USA_medium_plane_entity"
+	name = "DES_medium_plane_entity"
+}
+
+entity = {
+	clone = "USA_motorized_entity"
+	name = "ALK_motorized_entity"
+}
+
+entity = {
+	clone = "USA_motorized_entity"
+	name = "CAL_motorized_entity"
+}
+
+entity = {
+	clone = "USA_motorized_entity"
+	name = "DES_motorized_entity"
+}
+
+entity = {
+	clone = "USA_motorized_vehicle_entity"
+	name = "ALK_motorized_vehicle_entity"
+}
+
+entity = {
+	clone = "USA_motorized_vehicle_entity"
+	name = "CAL_motorized_vehicle_entity"
+}
+
+entity = {
+	clone = "USA_motorized_vehicle_entity"
+	name = "DES_motorized_vehicle_entity"
+}
+
+entity = {
+	clone = "USA_vehicle_infantry_rifle_entity"
+	name = "ALK_vehicle_infantry_rifle_entity"
+}
+
+entity = {
+	clone = "USA_vehicle_infantry_rifle_entity"
+	name = "CAL_vehicle_infantry_rifle_entity"
+}
+
+entity = {
+	clone = "USA_vehicle_infantry_rifle_entity"
+	name = "DES_vehicle_infantry_rifle_entity"
+}
