@@ -5,5 +5,5 @@ tags={
 	"Gameplay"
 }
 name="West Coast Releasables"
-supported_version="1.16.*"
+supported_version="1.19.*"
 remote_file_id="2820953130"
